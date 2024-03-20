@@ -66,12 +66,12 @@ They have also carriout evaluation on some more scenarios where there are compli
 
 ## Critical Analysis
 
-# Potential and Advancements
+### Potential and Advancements
 Innovation in Interaction: NextGPT represents a significant leap in how we interact with AI, moving beyond text-based interfaces to more natural, human-like interactions involving images, audio, and video. This multimodality can enhance learning, creativity, and accessibility, offering personalized and dynamic content generation.
 
 Cross-Modal Understanding: The ability to process and generate content across different modalities showcases an advanced understanding of context and content, akin to human cognitive abilities. This paves the way for AI systems that better understand the nuances of human communication and can assist in more complex tasks.
 
-# Limitations and Challenges
+### Limitations and Challenges
 Complexity and Resource Requirements: The integration of various encoders, diffusion models, and a large language model increases the system's complexity. This might lead to higher computational costs and energy consumption, limiting accessibility for smaller entities or individuals without substantial computational resources.
 
 Accuracy and Reliability: While promising, the accuracy of content generation across modalities can be inconsistent. Misinterpretations of inputs or errors in content generation could lead to misinformation or unintended outcomes, especially in sensitive contexts like education or healthcare.
