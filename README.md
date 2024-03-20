@@ -72,11 +72,15 @@ Innovation in Interaction: NextGPT represents a significant leap in how we inter
 Cross-Modal Understanding: The ability to process and generate content across different modalities showcases an advanced understanding of context and content, akin to human cognitive abilities. This paves the way for AI systems that better understand the nuances of human communication and can assist in more complex tasks.
 
 ### Limitations and Challenges
-Complexity and Resource Requirements: The integration of various encoders, diffusion models, and a large language model increases the system's complexity. This might lead to higher computational costs and energy consumption, limiting accessibility for smaller entities or individuals without substantial computational resources.
 
-Accuracy and Reliability: While promising, the accuracy of content generation across modalities can be inconsistent. Misinterpretations of inputs or errors in content generation could lead to misinformation or unintended outcomes, especially in sensitive contexts like education or healthcare.
+i) Modalities & Tasks Expansion: Due to resource limitations, currently, the system supports input and output in four modalities: language, images, videos, and audio. They plan to extend this to accommodate even more modalities (e.g., web page, 3D vision, heat map, tables&figures) and tasks (e.g., object detection, segmentation, grounding and tracking), broadening the system’s applicability such that it becomes more universal.
 
-Generalization vs. Specialization: The broad applicability of NextGPT across various domains raises questions about its ability to specialize. In fields requiring deep, specialized knowledge, NextGPT might not match the expertise of dedicated models, potentially compromising the quality of its outputs.
+ii) LLM Variants: Currently, we have implemented the 7B Vicuna version of the LLM. Our next plans involve incorporating various LLM types and sizes, allowing practitioners to choose the most suitable one for their specific requirements.
+
+iii) Multimodal Generation Strategies: While  system excels in generating content across modalities, the quality of generative outputs can sometimes be limited by the capabilities of the diffusion model. It is very promising to explore the integration of retrieval-based approaches to complement the generative process, potentially improving the overall system’s performance.
+
+iv) MosIT Dataset Expansion: Currently, IT dataset has room for expansion. Thehy shoul dsignificantly increase the amount of annotated data, ensuring a more comprehensive and diverse set of instructions to further enhance the MM-LLMs’ ability to understand and follow user prompts effectively.
+
 
 ### Related Links
 
