@@ -43,7 +43,7 @@ Further instruction tuning (IT) is necessary to enhance the capabilities and con
 
 Input Instructions: At the start, the system receives input instructions, which are text prompts that may be accompanied by various symbols representing different modalities, like images, audio, or video.
 
-Encoding and Input Projection: For each modality (image, audio, video), there's an encoder and an input projection step, much like the encoding side you asked about earlier. This step turns raw media into a structured format and then aligns it with the text feature space of the LLM.
+Encoding and Input Projection: For each modality (image, audio, video), there's an encoder and an input projection step, much like the encoding side earlier. This step turns raw media into a structured format and then aligns it with the text feature space of the LLM.
 
 LLM Processing with LoRA: The LLM, enhanced with a technique called LoRA (Low-Rank Adaptation), processes the multimodal inputs and produces textual content as output.
 LLM Output and Cross-Entropy with Gold Annotation: The textual output from the LLM is then compared to a "Gold Annotation," which is the correct or desired response. The comparison uses a method called "cross-entropy," which is a way to measure how well the LLM's output matches the gold standard.
