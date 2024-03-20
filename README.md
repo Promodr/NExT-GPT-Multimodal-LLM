@@ -87,4 +87,4 @@ https://github.com/NExT-GPT/NExT-GPT/tree/main
 
 ### Related Links
 
-You may refer to related work that serves as foundations for our framework and code repository, such as Vicuna, ImageBind, Stable Diffusion, AudioLDM, and Zeroscope. We also partially draw inspirations from CoDi, VPGTrans, Video-LLaMA, PandaGPT, GILL, and MiniGPT-4.
+You may refer to related work that serves as foundations in the framework and code repository, such as Vicuna, ImageBind, Stable Diffusion, AudioLDM, and Zeroscope. We also partially draw inspirations from CoDi, VPGTrans, Video-LLaMA, PandaGPT, GILL, and MiniGPT-4.
