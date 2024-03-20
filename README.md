@@ -51,3 +51,13 @@ LLM Output and Cross-Entropy with Gold Annotation: The textual output from the L
 Output Projection and Modality-Specific Text Encoders: The text output is projected for each modality and encoded with modality-specific text encoders, which might be part of diffusion models that have been adapted to work with text. The goal here is to align the LLM's output with the diffusion models' expected inputs.
 
 Minimizing Euclidean Distance for Modality-Specific Representations: Like in the decoding-side process, there's an emphasis on minimizing the Euclidean distance between the LLM's output representations for each modality and the gold annotations. This step aims to refine the accuracy of the LLM's multimodal responses.
+
+## MosIT Data
+
+All the existing IT datasets fail to meet the requirements for our any-to-any MM-LLM scenario. We thus construct the MosIT dataset of high quality. The data encompasses a wide range of multimodal inputs and outputs, offering the necessary complexity and variability to facilitate the training of MM-LLMs that can handle diverse user interactions and deliver desired responses accurately.
+
+![Alt text](images/data.png)
+
+### Related Links
+
+You may refer to related work that serves as foundations for our framework and code repository, such as Vicuna, ImageBind, Stable Diffusion, AudioLDM, and Zeroscope. We also partially draw inspirations from CoDi, VPGTrans, Video-LLaMA, PandaGPT, GILL, and MiniGPT-4.
