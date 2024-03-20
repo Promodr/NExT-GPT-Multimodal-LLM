@@ -5,6 +5,7 @@ While recently Multimodal Large Language Models (MM-LLMs) have made exciting str
 
 ![Image Alt text](/images/Architecture.png
 
+![Image Alt Text]([URL](https://next-gpt.github.io/static/images/framework.png))
 
 ## Multimodal Encoding Stage. 
 Leveraging existing well-established models to encode inputs of various modalities. Here we take advantage of the ImageBind, which is a unified high-performance encoder across six modalities. Then, via the linear projection layer, different input representations are mapped into language-like representations that are comprehensible to the LLM.
