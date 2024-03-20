@@ -81,6 +81,9 @@ iii) Multimodal Generation Strategies: While  system excels in generating conten
 
 iv) MosIT Dataset Expansion: Currently, IT dataset has room for expansion. Thehy shoul dsignificantly increase the amount of annotated data, ensuring a more comprehensive and diverse set of instructions to further enhance the MM-LLMs’ ability to understand and follow user prompts effectively.
 
+## Code Demonstration and Demo
+
+https://github.com/NExT-GPT/NExT-GPT/tree/main
 
 ### Related Links
 
