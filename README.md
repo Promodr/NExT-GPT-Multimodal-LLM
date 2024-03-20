@@ -58,6 +58,13 @@ All the existing IT datasets fail to meet the requirements for our any-to-any MM
 
 ![Alt text](images/data.png)
 
+## Performance
+
+![Alt text](images/performance.png)
+
+They have also carriout evaluation on some more scenarios where there are complicated cross-modal interactions between inputs and outputs. We mainly compare the model performance for the settings with different modality conversions. As no standard benchmark can be leveraged, here we adopt human evaluation. We ask several evaluators to score the performance of NExT-GPT on a scale from 1 to 10. Figure 5 shows the comparisons. We find NExT-GPT is more competent in producing images, compared with the generations on videos and audio. Also generating mixed combinations of multimodal content is slightly inferior to the generation of single-modal content, due to the complexity of the latter.
+
+
 ### Related Links
 
 You may refer to related work that serves as foundations for our framework and code repository, such as Vicuna, ImageBind, Stable Diffusion, AudioLDM, and Zeroscope. We also partially draw inspirations from CoDi, VPGTrans, Video-LLaMA, PandaGPT, GILL, and MiniGPT-4.
