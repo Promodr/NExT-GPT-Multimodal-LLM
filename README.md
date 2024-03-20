@@ -66,13 +66,6 @@ They have also carriout evaluation on some more scenarios where there are compli
 
 ## Critical Analysis
 
-### Potential and Advancements
-Innovation in Interaction: NextGPT represents a significant leap in how we interact with AI, moving beyond text-based interfaces to more natural, human-like interactions involving images, audio, and video. This multimodality can enhance learning, creativity, and accessibility, offering personalized and dynamic content generation.
-
-Cross-Modal Understanding: The ability to process and generate content across different modalities showcases an advanced understanding of context and content, akin to human cognitive abilities. This paves the way for AI systems that better understand the nuances of human communication and can assist in more complex tasks.
-
-### Limitations and Challenges
-
 i) Modalities & Tasks Expansion: Due to resource limitations, currently, the system supports input and output in four modalities: language, images, videos, and audio. They plan to extend this to accommodate even more modalities (e.g., web page, 3D vision, heat map, tables&figures) and tasks (e.g., object detection, segmentation, grounding and tracking), broadening the system’s applicability such that it becomes more universal.
 
 ii) LLM Variants: Currently, we have implemented the 7B Vicuna version of the LLM. Our next plans involve incorporating various LLM types and sizes, allowing practitioners to choose the most suitable one for their specific requirements.
